@@ -1,0 +1,1428 @@
+18:04:15 **** Build of configuration Debug for project TD3-TRI ****
+make -j12 all 
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.o"
+arm-none-eabi-gcc "../Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.d" -MT"Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart_ex.o"
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32l476rgtx.d" -MT"Core/Startup/startup_stm32l476rgtx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32l476rgtx.o" "../Core/Startup/startup_stm32l476rgtx.s"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32l4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32l4xx_hal_msp.d" -MT"Core/Src/stm32l4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32l4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32l4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32l4xx_it.d" -MT"Core/Src/stm32l4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32l4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32l4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32l4xx.d" -MT"Core/Src/system_stm32l4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32l4xx.o"
+arm-none-eabi-gcc -o "TD3-TRI.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/y360/STM32CubeIDE/workspace_1.19.0/TD3-TRI/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TD3-TRI.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TD3-TRI.elf
+ 
+arm-none-eabi-size  TD3-TRI.elf 
+arm-none-eabi-objdump -h -S TD3-TRI.elf  > "TD3-TRI.list"
+   text	   data	    bss	    dec	    hex	filename
+  12372	     12	   1708	  14092	   370c	TD3-TRI.elf
+Finished building: default.size.stdout
+ 
+Finished building: TD3-TRI.list
+ 
+18:04:23 **** Incremental Build of configuration Debug for project TD3-TRI ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "TD3-TRI.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/y360/STM32CubeIDE/workspace_1.19.0/TD3-TRI/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TD3-TRI.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TD3-TRI.elf
+ 
+arm-none-eabi-size  TD3-TRI.elf 
+arm-none-eabi-objdump -h -S TD3-TRI.elf  > "TD3-TRI.list"
+   text	   data	    bss	    dec	    hex	filename
+  12372	     12	   1708	  14092	   370c	TD3-TRI.elf
+Finished building: default.size.stdout
+ 
+Finished building: TD3-TRI.list
+ 
+18:10:28 **** Incremental Build of configuration Debug for project TD3-TRI ****
+make -j12 all 
+../Core/Src/utils.c: In function 'setup':
+../Core/Src/utils.c:9:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+    9 |         printf("le système à démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | /*
+../Core/Src/utils.c:9:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+    9 |         printf("le système à démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:9:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc "../Core/Src/stm32l4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32l4xx_hal_msp.d" -MT"Core/Src/stm32l4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32l4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32l4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32l4xx_it.d" -MT"Core/Src/stm32l4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32l4xx_it.o"
+../Core/Src/utils.c: In function 'loop':
+../Core/Src/utils.c:13:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   13 |         printf("hello world \r \n");
+      |         ^~~~~~
+../Core/Src/utils.c:13:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32l4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32l4xx.d" -MT"Core/Src/system_stm32l4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32l4xx.o"
+arm-none-eabi-gcc "../Core/Src/utils.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/utils.d" -MT"Core/Src/utils.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/utils.o"
+arm-none-eabi-gcc -o "TD3-TRI.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/y360/STM32CubeIDE/workspace_1.19.0/TD3-TRI/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TD3-TRI.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TD3-TRI.elf
+ 
+arm-none-eabi-size  TD3-TRI.elf 
+arm-none-eabi-objdump -h -S TD3-TRI.elf  > "TD3-TRI.list"
+   text	   data	    bss	    dec	    hex	filename
+  17544	    104	   2040	  19688	   4ce8	TD3-TRI.elf
+Finished building: default.size.stdout
+ 
+Finished building: TD3-TRI.list
+ 
+18:11:15 **** Incremental Build of configuration Debug for project TD3-TRI ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/utils.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/utils.d" -MT"Core/Src/utils.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/utils.o"
+../Core/Src/utils.c: In function 'setup':
+../Core/Src/utils.c:9:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    9 |         printf("le système à démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | /*
+../Core/Src/utils.c:9:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+    9 |         printf("le système à démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:9:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "TD3-TRI.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/y360/STM32CubeIDE/workspace_1.19.0/TD3-TRI/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TD3-TRI.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TD3-TRI.elf
+ 
+arm-none-eabi-size  TD3-TRI.elf 
+arm-none-eabi-objdump -h -S TD3-TRI.elf  > "TD3-TRI.list"
+   text	   data	    bss	    dec	    hex	filename
+  17336	    104	   2040	  19480	   4c18	TD3-TRI.elf
+Finished building: default.size.stdout
+ 
+Finished building: TD3-TRI.list
+ 
+18:21:01 **** Incremental Build of configuration Debug for project TD3-TRI ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/utils.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/utils.d" -MT"Core/Src/utils.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/utils.o"
+../Core/Src/utils.c: In function 'setup':
+../Core/Src/utils.c:14:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   14 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | /*
+../Core/Src/utils.c:14:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   14 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:14:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: In function 'getMinPosition':
+../Core/Src/utils.c:20:5: warning: type of 'array' defaults to 'int' [-Wimplicit-int]
+   20 | int getMinPosition(array, size) {
+      |     ^~~~~~~~~~~~~~
+../Core/Src/utils.c:20:5: warning: type of 'size' defaults to 'int' [-Wimplicit-int]
+../Core/Src/utils.c:21:24: error: expected '=', ',', ';', 'asm' or '__attribute__' before '<' token
+   21 |         for (int i=0, i<15, i++) {
+      |                        ^
+../Core/Src/utils.c:24:1: error: expected expression before '}' token
+   24 | }
+      | ^
+../Core/Src/utils.c:24:1: error: expected expression before '}' token
+../Core/Src/utils.c:24:1: error: expected expression before '}' token
+../Core/Src/utils.c:21:18: warning: unused variable 'i' [-Wunused-variable]
+   21 |         for (int i=0, i<15, i++) {
+      |                  ^
+../Core/Src/utils.c:24:1: warning: control reaches end of non-void function [-Wreturn-type]
+   24 | }
+      | ^
+make: *** [Core/Src/subdir.mk:37: Core/Src/utils.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+18:21:49 **** Incremental Build of configuration Debug for project TD3-TRI ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/utils.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/utils.d" -MT"Core/Src/utils.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/utils.o"
+../Core/Src/utils.c: In function 'setup':
+../Core/Src/utils.c:14:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   14 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | /*
+../Core/Src/utils.c:14:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   14 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:14:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: In function 'getMinPosition':
+../Core/Src/utils.c:20:5: warning: type of 'array' defaults to 'int' [-Wimplicit-int]
+   20 | int getMinPosition(array, size) {
+      |     ^~~~~~~~~~~~~~
+../Core/Src/utils.c:20:5: warning: type of 'size' defaults to 'int' [-Wimplicit-int]
+../Core/Src/utils.c:21:24: error: expected '=', ',', ';', 'asm' or '__attribute__' before '<' token
+   21 |         for (int i=0, i<15, i++) {
+      |                        ^
+../Core/Src/utils.c:24:1: error: expected expression before 'return'
+   24 | return 1
+      | ^~~~~~
+../Core/Src/utils.c:25:1: error: expected expression before '}' token
+   25 | }
+      | ^
+../Core/Src/utils.c:25:1: error: expected expression before '}' token
+../Core/Src/utils.c:21:18: warning: unused variable 'i' [-Wunused-variable]
+   21 |         for (int i=0, i<15, i++) {
+      |                  ^
+../Core/Src/utils.c:25:1: warning: control reaches end of non-void function [-Wreturn-type]
+   25 | }
+      | ^
+make: *** [Core/Src/subdir.mk:37: Core/Src/utils.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+18:22:02 **** Incremental Build of configuration Debug for project TD3-TRI ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/utils.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/utils.d" -MT"Core/Src/utils.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/utils.o"
+../Core/Src/utils.c: In function 'setup':
+../Core/Src/utils.c:14:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   14 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | /*
+../Core/Src/utils.c:14:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   14 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:14:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: In function 'getMinPosition':
+../Core/Src/utils.c:20:5: warning: type of 'array' defaults to 'int' [-Wimplicit-int]
+   20 | int getMinPosition(array, size) {
+      |     ^~~~~~~~~~~~~~
+../Core/Src/utils.c:20:5: warning: type of 'size' defaults to 'int' [-Wimplicit-int]
+../Core/Src/utils.c:21:24: error: expected '=', ',', ';', 'asm' or '__attribute__' before '<' token
+   21 |         for (int i=0, i<15, i++) {
+      |                        ^
+../Core/Src/utils.c:24:9: error: expected expression before 'return'
+   24 |         return 1
+      |         ^~~~~~
+../Core/Src/utils.c:25:1: error: expected expression before '}' token
+   25 | }
+      | ^
+../Core/Src/utils.c:25:1: error: expected expression before '}' token
+../Core/Src/utils.c:21:18: warning: unused variable 'i' [-Wunused-variable]
+   21 |         for (int i=0, i<15, i++) {
+      |                  ^
+../Core/Src/utils.c:25:1: warning: control reaches end of non-void function [-Wreturn-type]
+   25 | }
+      | ^
+make: *** [Core/Src/subdir.mk:37: Core/Src/utils.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+18:22:55 **** Incremental Build of configuration Debug for project TD3-TRI ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/utils.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/utils.d" -MT"Core/Src/utils.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/utils.o"
+../Core/Src/utils.c: In function 'setup':
+../Core/Src/utils.c:14:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   14 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | /*
+../Core/Src/utils.c:14:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   14 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:14:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: In function 'getMinPosition':
+../Core/Src/utils.c:20:5: warning: type of 'array' defaults to 'int' [-Wimplicit-int]
+   20 | int getMinPosition(array, size) {
+      |     ^~~~~~~~~~~~~~
+../Core/Src/utils.c:20:5: warning: type of 'size' defaults to 'int' [-Wimplicit-int]
+../Core/Src/utils.c:24:17: error: expected ';' before '}' token
+   24 |         return 1
+      |                 ^
+      |                 ;
+   25 | }
+      | ~                
+make: *** [Core/Src/subdir.mk:37: Core/Src/utils.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+18:23:10 **** Incremental Build of configuration Debug for project TD3-TRI ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/utils.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/utils.d" -MT"Core/Src/utils.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/utils.o"
+../Core/Src/utils.c: In function 'setup':
+../Core/Src/utils.c:14:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   14 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | /*
+../Core/Src/utils.c:14:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   14 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:14:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: In function 'getMinPosition':
+../Core/Src/utils.c:20:5: warning: type of 'array' defaults to 'int' [-Wimplicit-int]
+   20 | int getMinPosition(array, size) {
+      |     ^~~~~~~~~~~~~~
+../Core/Src/utils.c:20:5: warning: type of 'size' defaults to 'int' [-Wimplicit-int]
+arm-none-eabi-gcc -o "TD3-TRI.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/y360/STM32CubeIDE/workspace_1.19.0/TD3-TRI/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TD3-TRI.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TD3-TRI.elf
+ 
+arm-none-eabi-size  TD3-TRI.elf 
+arm-none-eabi-objdump -h -S TD3-TRI.elf  > "TD3-TRI.list"
+   text	   data	    bss	    dec	    hex	filename
+  17332	    104	   2040	  19476	   4c14	TD3-TRI.elf
+Finished building: default.size.stdout
+ 
+Finished building: TD3-TRI.list
+ 
+18:28:41 **** Incremental Build of configuration Debug for project TD3-TRI ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/utils.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/utils.d" -MT"Core/Src/utils.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/utils.o"
+../Core/Src/utils.c: In function 'setup':
+../Core/Src/utils.c:14:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   14 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | /*
+../Core/Src/utils.c:14:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   14 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:14:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: In function 'loop':
+../Core/Src/utils.c:19:15: warning: implicit declaration of function 'getMinPosition' [-Wimplicit-function-declaration]
+   19 |         index=getMinPosition(arrayTest,ARRAY_SIZE);
+      |               ^~~~~~~~~~~~~~
+../Core/Src/utils.c:20:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   20 |         printf("First min at : %d \n\r", index);
+      |         ^~~~~~
+../Core/Src/utils.c:20:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: In function 'getMinPosition':
+../Core/Src/utils.c:23:5: warning: type of 'array' defaults to 'int' [-Wimplicit-int]
+   23 | int getMinPosition(array, size) {
+      |     ^~~~~~~~~~~~~~
+../Core/Src/utils.c:23:5: warning: type of 'size' defaults to 'int' [-Wimplicit-int]
+../Core/Src/utils.c:24:22: error: subscripted value is neither array nor pointer nor vector
+   24 |         int min=array[0];
+      |                      ^
+../Core/Src/utils.c:27:26: error: subscripted value is neither array nor pointer nor vector
+   27 |                 if (array[i]<min){
+      |                          ^
+../Core/Src/utils.c:29:34: error: subscripted value is neither array nor pointer nor vector
+   29 |                         min=array[i];
+      |                                  ^
+make: *** [Core/Src/subdir.mk:37: Core/Src/utils.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+18:29:19 **** Incremental Build of configuration Debug for project TD3-TRI ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/utils.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/utils.d" -MT"Core/Src/utils.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/utils.o"
+../Core/Src/utils.c: In function 'setup':
+../Core/Src/utils.c:14:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   14 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | /*
+../Core/Src/utils.c:14:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   14 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:14:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: In function 'loop':
+../Core/Src/utils.c:19:15: warning: implicit declaration of function 'getMinPosition' [-Wimplicit-function-declaration]
+   19 |         index=getMinPosition(arrayTest,ARRAY_SIZE);
+      |               ^~~~~~~~~~~~~~
+../Core/Src/utils.c:20:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   20 |         printf("First min at : %d \n\r", index);
+      |         ^~~~~~
+../Core/Src/utils.c:20:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: In function 'getMinPosition':
+../Core/Src/utils.c:23:5: warning: type of 'array' defaults to 'int' [-Wimplicit-int]
+   23 | int getMinPosition(array, size) {
+      |     ^~~~~~~~~~~~~~
+../Core/Src/utils.c:23:5: warning: type of 'size' defaults to 'int' [-Wimplicit-int]
+../Core/Src/utils.c:24:22: error: subscripted value is neither array nor pointer nor vector
+   24 |         int min=array[0];
+      |                      ^
+../Core/Src/utils.c:27:26: error: subscripted value is neither array nor pointer nor vector
+   27 |                 if (array[i]<min){
+      |                          ^
+../Core/Src/utils.c:29:34: error: subscripted value is neither array nor pointer nor vector
+   29 |                         min=array[i];
+      |                                  ^
+make: *** [Core/Src/subdir.mk:37: Core/Src/utils.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+18:31:10 **** Incremental Build of configuration Debug for project TD3-TRI ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/utils.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/utils.d" -MT"Core/Src/utils.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/utils.o"
+../Core/Src/utils.c: In function 'setup':
+../Core/Src/utils.c:14:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   14 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | /*
+../Core/Src/utils.c:14:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   14 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:14:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: In function 'loop':
+../Core/Src/utils.c:19:15: warning: implicit declaration of function 'getMinPosition' [-Wimplicit-function-declaration]
+   19 |         index=getMinPosition(arrayTest,ARRAY_SIZE);
+      |               ^~~~~~~~~~~~~~
+../Core/Src/utils.c:20:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   20 |         printf("First min at : %d \n\r", index);
+      |         ^~~~~~
+../Core/Src/utils.c:20:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: At top level:
+../Core/Src/utils.c:23:33: error: unknown type name 'size'
+   23 | int getMinPosition(int * array, size) {
+      |                                 ^~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/utils.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+18:32:04 **** Incremental Build of configuration Debug for project TD3-TRI ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/utils.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/utils.d" -MT"Core/Src/utils.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/utils.o"
+../Core/Src/utils.c: In function 'setup':
+../Core/Src/utils.c:15:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   15 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:8:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    7 | #include "utils.h"
+  +++ |+#include <stdio.h>
+    8 | #define ARRAY_SIZE 15
+../Core/Src/utils.c:15:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   15 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:15:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: In function 'loop':
+../Core/Src/utils.c:21:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   21 |         printf("First min at : %d \n\r", index);
+      |         ^~~~~~
+../Core/Src/utils.c:21:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: In function 'getMinPosition':
+../Core/Src/utils.c:24:5: warning: type of 'array' defaults to 'int' [-Wimplicit-int]
+   24 | int getMinPosition(array, size) {
+      |     ^~~~~~~~~~~~~~
+../Core/Src/utils.c:24:5: warning: type of 'size' defaults to 'int' [-Wimplicit-int]
+../Core/Src/utils.c:24:5: error: argument 'array' doesn't match prototype
+In file included from ../Core/Src/utils.c:7:
+../Core/Inc/utils.h:19:5: error: prototype declaration
+   19 | int getMinPosition(int * array, int size);
+      |     ^~~~~~~~~~~~~~
+../Core/Src/utils.c:25:22: error: subscripted value is neither array nor pointer nor vector
+   25 |         int min=array[0];
+      |                      ^
+../Core/Src/utils.c:28:26: error: subscripted value is neither array nor pointer nor vector
+   28 |                 if (array[i]<min){
+      |                          ^
+../Core/Src/utils.c:30:34: error: subscripted value is neither array nor pointer nor vector
+   30 |                         min=array[i];
+      |                                  ^
+make: *** [Core/Src/subdir.mk:37: Core/Src/utils.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+18:32:53 **** Incremental Build of configuration Debug for project TD3-TRI ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/utils.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/utils.d" -MT"Core/Src/utils.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/utils.o"
+../Core/Src/utils.c: In function 'setup':
+../Core/Src/utils.c:14:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   14 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | /*
+../Core/Src/utils.c:14:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   14 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:14:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: In function 'loop':
+../Core/Src/utils.c:19:15: warning: implicit declaration of function 'getMinPosition' [-Wimplicit-function-declaration]
+   19 |         index=getMinPosition(arrayTest,ARRAY_SIZE);
+      |               ^~~~~~~~~~~~~~
+../Core/Src/utils.c:20:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   20 |         printf("First min at : %d \n\r", index);
+      |         ^~~~~~
+../Core/Src/utils.c:20:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: At top level:
+../Core/Src/utils.c:23:20: error: expected declaration specifiers or '...' before '*' token
+   23 | int getMinPosition(*array, size) {
+      |                    ^
+../Core/Src/utils.c:23:28: error: unknown type name 'size'
+   23 | int getMinPosition(*array, size) {
+      |                            ^~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/utils.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+18:33:22 **** Incremental Build of configuration Debug for project TD3-TRI ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/utils.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/utils.d" -MT"Core/Src/utils.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/utils.o"
+../Core/Src/utils.c: In function 'setup':
+../Core/Src/utils.c:14:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   14 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | /*
+../Core/Src/utils.c:14:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   14 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:14:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: In function 'loop':
+../Core/Src/utils.c:19:15: warning: implicit declaration of function 'getMinPosition' [-Wimplicit-function-declaration]
+   19 |         index=getMinPosition(arrayTest,ARRAY_SIZE);
+      |               ^~~~~~~~~~~~~~
+../Core/Src/utils.c:20:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   20 |         printf("First min at : %d \n\r", index);
+      |         ^~~~~~
+../Core/Src/utils.c:20:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: At top level:
+../Core/Src/utils.c:23:20: error: expected declaration specifiers or '...' before '*' token
+   23 | int getMinPosition(* array, size) {
+      |                    ^
+../Core/Src/utils.c:23:29: error: unknown type name 'size'
+   23 | int getMinPosition(* array, size) {
+      |                             ^~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/utils.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+18:33:55 **** Incremental Build of configuration Debug for project TD3-TRI ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/utils.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/utils.d" -MT"Core/Src/utils.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/utils.o"
+../Core/Src/utils.c: In function 'setup':
+../Core/Src/utils.c:14:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   14 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:9:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    8 | #include "utils.h"
+  +++ |+#include <stdio.h>
+    9 | 
+../Core/Src/utils.c:14:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   14 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:14:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: In function 'loop':
+../Core/Src/utils.c:20:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   20 |         printf("First min at : %d \n\r", index);
+      |         ^~~~~~
+../Core/Src/utils.c:20:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: At top level:
+../Core/Src/utils.c:23:20: error: expected declaration specifiers or '...' before '*' token
+   23 | int getMinPosition(* array, size) {
+      |                    ^
+../Core/Src/utils.c:23:29: error: unknown type name 'size'
+   23 | int getMinPosition(* array, size) {
+      |                             ^~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/utils.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+18:34:21 **** Incremental Build of configuration Debug for project TD3-TRI ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/utils.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/utils.d" -MT"Core/Src/utils.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/utils.o"
+../Core/Src/utils.c: In function 'setup':
+../Core/Src/utils.c:14:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   14 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:9:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    8 | #include "utils.h"
+  +++ |+#include <stdio.h>
+    9 | 
+../Core/Src/utils.c:14:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   14 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:14:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: In function 'loop':
+../Core/Src/utils.c:20:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   20 |         printf("First min at : %d \n\r", index);
+      |         ^~~~~~
+../Core/Src/utils.c:20:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: At top level:
+../Core/Src/utils.c:23:20: error: expected declaration specifiers or '...' before '*' token
+   23 | int getMinPosition(* array, int size) {
+      |                    ^
+make: *** [Core/Src/subdir.mk:37: Core/Src/utils.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+18:34:42 **** Incremental Build of configuration Debug for project TD3-TRI ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/utils.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/utils.d" -MT"Core/Src/utils.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/utils.o"
+../Core/Src/utils.c: In function 'setup':
+../Core/Src/utils.c:14:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   14 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:9:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    8 | #include "utils.h"
+  +++ |+#include <stdio.h>
+    9 | 
+../Core/Src/utils.c:14:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   14 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:14:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: In function 'loop':
+../Core/Src/utils.c:20:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   20 |         printf("First min at : %d \n\r", index);
+      |         ^~~~~~
+../Core/Src/utils.c:20:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: In function 'getMinPosition':
+../Core/Src/utils.c:24:17: error: invalid type argument of unary '*' (have 'int')
+   24 |         int min=* array[0];
+      |                 ^~~~~~~~~~
+../Core/Src/utils.c:27:21: error: invalid type argument of unary '*' (have 'int')
+   27 |                 if (* array[i]<min){
+      |                     ^~~~~~~~~~
+../Core/Src/utils.c:29:29: error: invalid type argument of unary '*' (have 'int')
+   29 |                         min=* array[i];
+      |                             ^~~~~~~~~~
+make: *** [Core/Src/subdir.mk:37: Core/Src/utils.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+18:35:13 **** Incremental Build of configuration Debug for project TD3-TRI ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/utils.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/utils.d" -MT"Core/Src/utils.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/utils.o"
+../Core/Src/utils.c: In function 'setup':
+../Core/Src/utils.c:14:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   14 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:9:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    8 | #include "utils.h"
+  +++ |+#include <stdio.h>
+    9 | 
+../Core/Src/utils.c:14:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   14 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:14:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: In function 'loop':
+../Core/Src/utils.c:20:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   20 |         printf("First min at : %d \n\r", index);
+      |         ^~~~~~
+../Core/Src/utils.c:20:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "TD3-TRI.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/y360/STM32CubeIDE/workspace_1.19.0/TD3-TRI/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TD3-TRI.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TD3-TRI.elf
+ 
+arm-none-eabi-size  TD3-TRI.elf 
+arm-none-eabi-objdump -h -S TD3-TRI.elf  > "TD3-TRI.list"
+   text	   data	    bss	    dec	    hex	filename
+  17468	    164	   2044	  19676	   4cdc	TD3-TRI.elf
+Finished building: default.size.stdout
+ 
+Finished building: TD3-TRI.list
+ 
+18:35:38 **** Incremental Build of configuration Debug for project TD3-TRI ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/utils.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/utils.d" -MT"Core/Src/utils.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/utils.o"
+../Core/Src/utils.c: In function 'setup':
+../Core/Src/utils.c:14:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   14 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:9:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    8 | #include "utils.h"
+  +++ |+#include <stdio.h>
+    9 | 
+../Core/Src/utils.c:14:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   14 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:14:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: In function 'loop':
+../Core/Src/utils.c:20:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   20 |         printf("First min at : %d \n\r", index);
+      |         ^~~~~~
+../Core/Src/utils.c:20:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "TD3-TRI.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/y360/STM32CubeIDE/workspace_1.19.0/TD3-TRI/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TD3-TRI.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TD3-TRI.elf
+ 
+arm-none-eabi-size  TD3-TRI.elf 
+arm-none-eabi-objdump -h -S TD3-TRI.elf  > "TD3-TRI.list"
+   text	   data	    bss	    dec	    hex	filename
+  17468	    164	   2044	  19676	   4cdc	TD3-TRI.elf
+Finished building: default.size.stdout
+ 
+Finished building: TD3-TRI.list
+ 
+18:53:03 **** Incremental Build of configuration Debug for project TD3-TRI ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/utils.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/utils.d" -MT"Core/Src/utils.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/utils.o"
+../Core/Src/utils.c: In function 'setup':
+../Core/Src/utils.c:15:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   15 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:9:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    8 | #include "utils.h"
+  +++ |+#include <stdio.h>
+    9 | 
+../Core/Src/utils.c:15:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   15 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:15:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: In function 'loop':
+../Core/Src/utils.c:22:9: error: expected ',' or ';' before 'index'
+   22 |         index=getMinPosition(arrayTest,ARRAY_SIZE);
+      |         ^~~~~
+../Core/Src/utils.c:23:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   23 |         printf("First min at : %d \n\r", index);
+      |         ^~~~~~
+../Core/Src/utils.c:23:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c:21:13: warning: unused variable 'toBeIgnored' [-Wunused-variable]
+   21 |         int toBeIgnored[ARRAY_SIZE]={0}
+      |             ^~~~~~~~~~~
+../Core/Src/utils.c: At top level:
+../Core/Src/utils.c:27:5: error: conflicting types for 'getMinPosition'; have 'int(int *, int *, int)'
+   27 | int getMinPosition(int * array, int * toBeIgnored, int size) {
+      |     ^~~~~~~~~~~~~~
+In file included from ../Core/Src/utils.c:8:
+../Core/Inc/utils.h:19:5: note: previous declaration of 'getMinPosition' with type 'int(int *, int)'
+   19 | int getMinPosition(int * array, int size);
+      |     ^~~~~~~~~~~~~~
+../Core/Src/utils.c: In function 'sortArray':
+../Core/Src/utils.c:43:13: warning: unused variable 'sortedPosition' [-Wunused-variable]
+   43 |         int sortedPosition[ARRAY_SIZE]={0};
+      |             ^~~~~~~~~~~~~~
+../Core/Src/utils.c:48:1: warning: control reaches end of non-void function [-Wreturn-type]
+   48 | }
+      | ^
+make: *** [Core/Src/subdir.mk:37: Core/Src/utils.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+18:54:07 **** Incremental Build of configuration Debug for project TD3-TRI ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/utils.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/utils.d" -MT"Core/Src/utils.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/utils.o"
+../Core/Src/utils.c: In function 'setup':
+../Core/Src/utils.c:15:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   15 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:9:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    8 | #include "utils.h"
+  +++ |+#include <stdio.h>
+    9 | 
+../Core/Src/utils.c:15:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   15 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:15:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: In function 'loop':
+../Core/Src/utils.c:22:9: error: expected ',' or ';' before 'index'
+   22 |         index=getMinPosition(arrayTest, Ignored, ARRAY_SIZE);
+      |         ^~~~~
+../Core/Src/utils.c:23:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   23 |         printf("First min at : %d \n\r", index);
+      |         ^~~~~~
+../Core/Src/utils.c:23:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c:21:13: warning: unused variable 'Ignored' [-Wunused-variable]
+   21 |         int Ignored[ARRAY_SIZE]={0}
+      |             ^~~~~~~
+../Core/Src/utils.c: At top level:
+../Core/Src/utils.c:27:5: error: conflicting types for 'getMinPosition'; have 'int(int *, int *, int)'
+   27 | int getMinPosition(int * array, int * toBeIgnored, int size) {
+      |     ^~~~~~~~~~~~~~
+In file included from ../Core/Src/utils.c:8:
+../Core/Inc/utils.h:19:5: note: previous declaration of 'getMinPosition' with type 'int(int *, int)'
+   19 | int getMinPosition(int * array, int size);
+      |     ^~~~~~~~~~~~~~
+../Core/Src/utils.c: In function 'sortArray':
+../Core/Src/utils.c:43:13: warning: unused variable 'sortedPosition' [-Wunused-variable]
+   43 |         int sortedPosition[ARRAY_SIZE]={0};
+      |             ^~~~~~~~~~~~~~
+../Core/Src/utils.c:48:1: warning: control reaches end of non-void function [-Wreturn-type]
+   48 | }
+      | ^
+make: *** [Core/Src/subdir.mk:37: Core/Src/utils.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+18:55:05 **** Incremental Build of configuration Debug for project TD3-TRI ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/utils.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/utils.d" -MT"Core/Src/utils.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/utils.o"
+../Core/Src/utils.c: In function 'setup':
+../Core/Src/utils.c:15:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   15 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:9:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    8 | #include "utils.h"
+  +++ |+#include <stdio.h>
+    9 | 
+../Core/Src/utils.c:15:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   15 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:15:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: In function 'loop':
+../Core/Src/utils.c:23:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   23 |         printf("First min at : %d \n\r", index);
+      |         ^~~~~~
+../Core/Src/utils.c:23:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: In function 'sortArray':
+../Core/Src/utils.c:43:13: warning: unused variable 'sortedPosition' [-Wunused-variable]
+   43 |         int sortedPosition[ARRAY_SIZE]={0};
+      |             ^~~~~~~~~~~~~~
+../Core/Src/utils.c:48:1: warning: control reaches end of non-void function [-Wreturn-type]
+   48 | }
+      | ^
+arm-none-eabi-gcc -o "TD3-TRI.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/y360/STM32CubeIDE/workspace_1.19.0/TD3-TRI/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TD3-TRI.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TD3-TRI.elf
+ 
+arm-none-eabi-size  TD3-TRI.elf 
+arm-none-eabi-objdump -h -S TD3-TRI.elf  > "TD3-TRI.list"
+   text	   data	    bss	    dec	    hex	filename
+  17500	    164	   2044	  19708	   4cfc	TD3-TRI.elf
+Finished building: default.size.stdout
+ 
+Finished building: TD3-TRI.list
+ 
+19:03:56 **** Incremental Build of configuration Debug for project TD3-TRI ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/utils.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/utils.d" -MT"Core/Src/utils.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/utils.o"
+../Core/Src/utils.c: In function 'setup':
+../Core/Src/utils.c:15:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   15 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:9:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    8 | #include "utils.h"
+  +++ |+#include <stdio.h>
+    9 | 
+../Core/Src/utils.c:15:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   15 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:15:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: In function 'loop':
+../Core/Src/utils.c:22:20: warning: implicit declaration of function 'HAL_GetTick' [-Wimplicit-function-declaration]
+   22 |         long start=HAL_GetTick();
+      |                    ^~~~~~~~~~~
+../Core/Src/utils.c:25:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   25 |         printf("Solved in : %d milliseconds \n\r", stop-start);
+      |         ^~~~~~
+../Core/Src/utils.c:25:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c:25:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long int' [-Wformat=]
+   25 |         printf("Solved in : %d milliseconds \n\r", stop-start);
+      |                             ~^                     ~~~~~~~~~~
+      |                              |                         |
+      |                              int                       long int
+      |                             %ld
+../Core/Src/utils.c:21:13: warning: unused variable 'Ignored' [-Wunused-variable]
+   21 |         int Ignored[ARRAY_SIZE]={0};
+      |             ^~~~~~~
+../Core/Src/utils.c: In function 'sortArray':
+../Core/Src/utils.c:51:16: warning: returning 'int *' from a function with return type 'int' makes integer from pointer without a cast [-Wint-conversion]
+   51 |         return sorted;
+      |                ^~~~~~
+../Core/Src/utils.c: At top level:
+../Core/Src/utils.c:54:1: error: expected identifier or '(' before '}' token
+   54 | }
+      | ^
+make: *** [Core/Src/subdir.mk:37: Core/Src/utils.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+19:04:17 **** Incremental Build of configuration Debug for project TD3-TRI ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/utils.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/utils.d" -MT"Core/Src/utils.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/utils.o"
+../Core/Src/utils.c: In function 'setup':
+../Core/Src/utils.c:15:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   15 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:9:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    8 | #include "utils.h"
+  +++ |+#include <stdio.h>
+    9 | 
+../Core/Src/utils.c:15:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   15 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:15:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: In function 'loop':
+../Core/Src/utils.c:22:20: warning: implicit declaration of function 'HAL_GetTick' [-Wimplicit-function-declaration]
+   22 |         long start=HAL_GetTick();
+      |                    ^~~~~~~~~~~
+../Core/Src/utils.c:25:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   25 |         printf("Solved in : %d milliseconds \n\r", stop-start);
+      |         ^~~~~~
+../Core/Src/utils.c:25:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c:25:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long int' [-Wformat=]
+   25 |         printf("Solved in : %d milliseconds \n\r", stop-start);
+      |                             ~^                     ~~~~~~~~~~
+      |                              |                         |
+      |                              int                       long int
+      |                             %ld
+../Core/Src/utils.c:21:13: warning: unused variable 'Ignored' [-Wunused-variable]
+   21 |         int Ignored[ARRAY_SIZE]={0};
+      |             ^~~~~~~
+../Core/Src/utils.c: In function 'sortArray':
+../Core/Src/utils.c:51:16: warning: returning 'int *' from a function with return type 'int' makes integer from pointer without a cast [-Wint-conversion]
+   51 |         return sorted;
+      |                ^~~~~~
+arm-none-eabi-gcc -o "TD3-TRI.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/y360/STM32CubeIDE/workspace_1.19.0/TD3-TRI/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TD3-TRI.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TD3-TRI.elf
+ 
+arm-none-eabi-size  TD3-TRI.elf 
+arm-none-eabi-objdump -h -S TD3-TRI.elf  > "TD3-TRI.list"
+   text	   data	    bss	    dec	    hex	filename
+  17644	    164	   2044	  19852	   4d8c	TD3-TRI.elf
+Finished building: default.size.stdout
+ 
+Finished building: TD3-TRI.list
+ 
+19:04:46 **** Incremental Build of configuration Debug for project TD3-TRI ****
+make -j12 all 
+arm-none-eabi-size  TD3-TRI.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17644	    164	   2044	  19852	   4d8c	TD3-TRI.elf
+Finished building: default.size.stdout
+ 
+19:40:40 **** Incremental Build of configuration Debug for project TD3-TRI ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/utils.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/utils.d" -MT"Core/Src/utils.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/utils.o"
+../Core/Src/utils.c:10:80: warning: excess elements in array initializer
+   10 | int arrayTest[ARRAY_SIZE]={0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4};
+      |                                                                                ^
+../Core/Src/utils.c:10:80: note: (near initialization for 'arrayTest')
+../Core/Src/utils.c:10:83: warning: excess elements in array initializer
+   10 | int arrayTest[ARRAY_SIZE]={0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4};
+      |                                                                                   ^
+../Core/Src/utils.c:10:83: note: (near initialization for 'arrayTest')
+../Core/Src/utils.c:10:86: warning: excess elements in array initializer
+   10 | int arrayTest[ARRAY_SIZE]={0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4};
+      |                                                                                      ^
+../Core/Src/utils.c:10:86: note: (near initialization for 'arrayTest')
+../Core/Src/utils.c:10:89: warning: excess elements in array initializer
+   10 | int arrayTest[ARRAY_SIZE]={0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4};
+      |                                                                                         ^~
+../Core/Src/utils.c:10:89: note: (near initialization for 'arrayTest')
+../Core/Src/utils.c:10:93: warning: excess elements in array initializer
+   10 | int arrayTest[ARRAY_SIZE]={0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4};
+      |                                                                                             ^
+../Core/Src/utils.c:10:93: note: (near initialization for 'arrayTest')
+../Core/Src/utils.c:10:97: warning: excess elements in array initializer
+   10 | int arrayTest[ARRAY_SIZE]={0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4};
+      |                                                                                                 ^
+../Core/Src/utils.c:10:97: note: (near initialization for 'arrayTest')
+../Core/Src/utils.c:10:100: warning: excess elements in array initializer
+   10 | int arrayTest[ARRAY_SIZE]={0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4};
+      |                                                                                                    ^
+../Core/Src/utils.c:10:100: note: (near initialization for 'arrayTest')
+../Core/Src/utils.c:10:103: warning: excess elements in array initializer
+   10 | int arrayTest[ARRAY_SIZE]={0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4};
+      |                                                                                                       ^
+../Core/Src/utils.c:10:103: note: (near initialization for 'arrayTest')
+../Core/Src/utils.c:10:106: warning: excess elements in array initializer
+   10 | int arrayTest[ARRAY_SIZE]={0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4};
+      |                                                                                                          ^
+../Core/Src/utils.c:10:106: note: (near initialization for 'arrayTest')
+../Core/Src/utils.c:10:109: warning: excess elements in array initializer
+   10 | int arrayTest[ARRAY_SIZE]={0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4};
+      |                                                                                                             ^~
+../Core/Src/utils.c:10:109: note: (near initialization for 'arrayTest')
+../Core/Src/utils.c:10:113: warning: excess elements in array initializer
+   10 | int arrayTest[ARRAY_SIZE]={0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4};
+      |                                                                                                                 ^~~~
+../Core/Src/utils.c:10:113: note: (near initialization for 'arrayTest')
+../Core/Src/utils.c:10:119: warning: excess elements in array initializer
+   10 | int arrayTest[ARRAY_SIZE]={0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4};
+      |                                                                                                                       ^~
+../Core/Src/utils.c:10:119: note: (near initialization for 'arrayTest')
+../Core/Src/utils.c:10:123: warning: excess elements in array initializer
+   10 | int arrayTest[ARRAY_SIZE]={0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4};
+      |                                                                                                                           ^~
+../Core/Src/utils.c:10:123: note: (near initialization for 'arrayTest')
+../Core/Src/utils.c:10:127: warning: excess elements in array initializer
+   10 | int arrayTest[ARRAY_SIZE]={0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4};
+      |                                                                                                                               ^
+../Core/Src/utils.c:10:127: note: (near initialization for 'arrayTest')
+../Core/Src/utils.c:10:130: warning: excess elements in array initializer
+   10 | int arrayTest[ARRAY_SIZE]={0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4};
+      |                                                                                                                                  ^
+../Core/Src/utils.c:10:130: note: (near initialization for 'arrayTest')
+../Core/Src/utils.c:10:132: warning: excess elements in array initializer
+   10 | int arrayTest[ARRAY_SIZE]={0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4};
+      |                                                                                                                                    ^
+../Core/Src/utils.c:10:132: note: (near initialization for 'arrayTest')
+../Core/Src/utils.c:10:135: warning: excess elements in array initializer
+   10 | int arrayTest[ARRAY_SIZE]={0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4};
+      |                                                                                                                                       ^
+../Core/Src/utils.c:10:135: note: (near initialization for 'arrayTest')
+../Core/Src/utils.c:10:138: warning: excess elements in array initializer
+   10 | int arrayTest[ARRAY_SIZE]={0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4};
+      |                                                                                                                                          ^
+../Core/Src/utils.c:10:138: note: (near initialization for 'arrayTest')
+arm-none-eabi-gcc -o "TD3-TRI.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/y360/STM32CubeIDE/workspace_1.19.0/TD3-TRI/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TD3-TRI.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+../Core/Src/utils.c:10:141: warning: excess elements in array initializer
+   10 | int arrayTest[ARRAY_SIZE]={0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4};
+      |                                                                                                                                             ^~
+../Core/Src/utils.c:10:141: note: (near initialization for 'arrayTest')
+../Core/Src/utils.c:10:145: warning: excess elements in array initializer
+   10 | int arrayTest[ARRAY_SIZE]={0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4};
+      |                                                                                                                                                 ^
+../Core/Src/utils.c:10:145: note: (near initialization for 'arrayTest')
+../Core/Src/utils.c:10:149: warning: excess elements in array initializer
+   10 | int arrayTest[ARRAY_SIZE]={0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4};
+      |                                                                                                                                                     ^
+../Core/Src/utils.c:10:149: note: (near initialization for 'arrayTest')
+../Core/Src/utils.c:10:152: warning: excess elements in array initializer
+   10 | int arrayTest[ARRAY_SIZE]={0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4};
+      |                                                                                                                                                        ^
+../Core/Src/utils.c:10:152: note: (near initialization for 'arrayTest')
+../Core/Src/utils.c:10:155: warning: excess elements in array initializer
+   10 | int arrayTest[ARRAY_SIZE]={0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4};
+      |                                                                                                                                                           ^
+../Core/Src/utils.c:10:155: note: (near initialization for 'arrayTest')
+../Core/Src/utils.c:10:158: warning: excess elements in array initializer
+   10 | int arrayTest[ARRAY_SIZE]={0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4};
+      |                                                                                                                                                              ^
+../Core/Src/utils.c:10:158: note: (near initialization for 'arrayTest')
+../Core/Src/utils.c:10:161: warning: excess elements in array initializer
+   10 | int arrayTest[ARRAY_SIZE]={0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4};
+      |                                                                                                                                                                 ^~
+../Core/Src/utils.c:10:161: note: (near initialization for 'arrayTest')
+../Core/Src/utils.c:10:165: warning: excess elements in array initializer
+   10 | int arrayTest[ARRAY_SIZE]={0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4};
+      |                                                                                                                                                                     ^~~~
+../Core/Src/utils.c:10:165: note: (near initialization for 'arrayTest')
+../Core/Src/utils.c:10:171: warning: excess elements in array initializer
+   10 | int arrayTest[ARRAY_SIZE]={0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4};
+      |                                                                                                                                                                           ^~
+../Core/Src/utils.c:10:171: note: (near initialization for 'arrayTest')
+../Core/Src/utils.c:10:175: warning: excess elements in array initializer
+   10 | int arrayTest[ARRAY_SIZE]={0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4};
+      |                                                                                                                                                                               ^~
+../Core/Src/utils.c:10:175: note: (near initialization for 'arrayTest')
+../Core/Src/utils.c:10:179: warning: excess elements in array initializer
+   10 | int arrayTest[ARRAY_SIZE]={0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4};
+      |                                                                                                                                                                                   ^
+../Core/Src/utils.c:10:179: note: (near initialization for 'arrayTest')
+../Core/Src/utils.c:10:182: warning: excess elements in array initializer
+   10 | int arrayTest[ARRAY_SIZE]={0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4,0, 1, 5, 10, -1, 0, 0, 0, 0, 12, 1024, 10, 45, 6, 4};
+      |                                                                                                                                                                                      ^
+../Core/Src/utils.c:10:182: note: (near initialization for 'arrayTest')
+../Core/Src/utils.c: In function 'setup':
+../Core/Src/utils.c:15:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   15 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:9:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    8 | #include "utils.h"
+  +++ |+#include <stdio.h>
+    9 | 
+../Core/Src/utils.c:15:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   15 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:15:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: In function 'loop':
+../Core/Src/utils.c:22:20: warning: implicit declaration of function 'HAL_GetTick' [-Wimplicit-function-declaration]
+   22 |         long start=HAL_GetTick();
+      |                    ^~~~~~~~~~~
+../Core/Src/utils.c:25:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   25 |         printf("Solved in : %d milliseconds \n\r", stop-start);
+      |         ^~~~~~
+../Core/Src/utils.c:25:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c:25:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long int' [-Wformat=]
+   25 |         printf("Solved in : %d milliseconds \n\r", stop-start);
+      |                             ~^                     ~~~~~~~~~~
+      |                              |                         |
+      |                              int                       long int
+      |                             %ld
+../Core/Src/utils.c:21:13: warning: unused variable 'Ignored' [-Wunused-variable]
+   21 |         int Ignored[ARRAY_SIZE]={0};
+      |             ^~~~~~~
+../Core/Src/utils.c: In function 'sortArray':
+../Core/Src/utils.c:51:16: warning: returning 'int *' from a function with return type 'int' makes integer from pointer without a cast [-Wint-conversion]
+   51 |         return sorted;
+      |                ^~~~~~
+Finished building target: TD3-TRI.elf
+ 
+arm-none-eabi-size  TD3-TRI.elf 
+arm-none-eabi-objdump -h -S TD3-TRI.elf  > "TD3-TRI.list"
+   text	   data	    bss	    dec	    hex	filename
+  17644	    164	   2044	  19852	   4d8c	TD3-TRI.elf
+Finished building: default.size.stdout
+ 
+Finished building: TD3-TRI.list
+ 
+19:41:16 **** Incremental Build of configuration Debug for project TD3-TRI ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/utils.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/utils.d" -MT"Core/Src/utils.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/utils.o"
+../Core/Src/utils.c: In function 'setup':
+../Core/Src/utils.c:15:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   15 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:9:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    8 | #include "utils.h"
+  +++ |+#include <stdio.h>
+    9 | 
+../Core/Src/utils.c:15:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   15 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:15:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: In function 'loop':
+../Core/Src/utils.c:22:20: warning: implicit declaration of function 'HAL_GetTick' [-Wimplicit-function-declaration]
+   22 |         long start=HAL_GetTick();
+      |                    ^~~~~~~~~~~
+../Core/Src/utils.c:25:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   25 |         printf("Solved in : %d milliseconds \n\r", stop-start);
+      |         ^~~~~~
+../Core/Src/utils.c:25:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c:25:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long int' [-Wformat=]
+   25 |         printf("Solved in : %d milliseconds \n\r", stop-start);
+      |                             ~^                     ~~~~~~~~~~
+      |                              |                         |
+      |                              int                       long int
+      |                             %ld
+../Core/Src/utils.c:21:13: warning: unused variable 'Ignored' [-Wunused-variable]
+   21 |         int Ignored[ARRAY_SIZE]={0};
+      |             ^~~~~~~
+../Core/Src/utils.c: In function 'sortArray':
+../Core/Src/utils.c:51:16: warning: returning 'int *' from a function with return type 'int' makes integer from pointer without a cast [-Wint-conversion]
+   51 |         return sorted;
+      |                ^~~~~~
+arm-none-eabi-gcc -o "TD3-TRI.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/y360/STM32CubeIDE/workspace_1.19.0/TD3-TRI/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TD3-TRI.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TD3-TRI.elf
+ 
+arm-none-eabi-size  TD3-TRI.elf 
+arm-none-eabi-objdump -h -S TD3-TRI.elf  > "TD3-TRI.list"
+   text	   data	    bss	    dec	    hex	filename
+  17680	    284	   2044	  20008	   4e28	TD3-TRI.elf
+Finished building: default.size.stdout
+ 
+Finished building: TD3-TRI.list
+ 
+19:42:58 **** Incremental Build of configuration Debug for project TD3-TRI ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/utils.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/utils.d" -MT"Core/Src/utils.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/utils.o"
+../Core/Src/utils.c: In function 'setup':
+../Core/Src/utils.c:21:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   21 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:9:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    8 | #include "utils.h"
+  +++ |+#include <stdio.h>
+    9 | 
+../Core/Src/utils.c:21:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   21 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:21:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: In function 'loop':
+../Core/Src/utils.c:28:20: warning: implicit declaration of function 'HAL_GetTick' [-Wimplicit-function-declaration]
+   28 |         long start=HAL_GetTick();
+      |                    ^~~~~~~~~~~
+../Core/Src/utils.c:31:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   31 |         printf("Solved in : %d milliseconds \n\r", stop-start);
+      |         ^~~~~~
+../Core/Src/utils.c:31:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c:31:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long int' [-Wformat=]
+   31 |         printf("Solved in : %d milliseconds \n\r", stop-start);
+      |                             ~^                     ~~~~~~~~~~
+      |                              |                         |
+      |                              int                       long int
+      |                             %ld
+../Core/Src/utils.c:27:13: warning: unused variable 'Ignored' [-Wunused-variable]
+   27 |         int Ignored[ARRAY_SIZE]={0};
+      |             ^~~~~~~
+../Core/Src/utils.c: In function 'sortArray':
+../Core/Src/utils.c:57:16: warning: returning 'int *' from a function with return type 'int' makes integer from pointer without a cast [-Wint-conversion]
+   57 |         return sorted;
+      |                ^~~~~~
+arm-none-eabi-gcc -o "TD3-TRI.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/y360/STM32CubeIDE/workspace_1.19.0/TD3-TRI/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TD3-TRI.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TD3-TRI.elf
+ 
+arm-none-eabi-size  TD3-TRI.elf 
+arm-none-eabi-objdump -h -S TD3-TRI.elf  > "TD3-TRI.list"
+   text	   data	    bss	    dec	    hex	filename
+  17768	    584	   2040	  20392	   4fa8	TD3-TRI.elf
+Finished building: default.size.stdout
+ 
+Finished building: TD3-TRI.list
+ 
+10:07:26 **** Incremental Build of configuration Debug for project TD3-TRI ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/utils.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/utils.d" -MT"Core/Src/utils.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/utils.o"
+../Core/Src/utils.c: In function 'setup':
+../Core/Src/utils.c:21:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   21 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:9:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    8 | #include "utils.h"
+  +++ |+#include <stdio.h>
+    9 | 
+../Core/Src/utils.c:21:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   21 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:21:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: In function 'loop':
+../Core/Src/utils.c:28:20: warning: implicit declaration of function 'HAL_GetTick' [-Wimplicit-function-declaration]
+   28 |         long start=HAL_GetTick();
+      |                    ^~~~~~~~~~~
+../Core/Src/utils.c:31:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   31 |         printf("Solved in : %d milliseconds \n\r", stop-start);
+      |         ^~~~~~
+../Core/Src/utils.c:31:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c:31:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long int' [-Wformat=]
+   31 |         printf("Solved in : %d milliseconds \n\r", stop-start);
+      |                             ~^                     ~~~~~~~~~~
+      |                              |                         |
+      |                              int                       long int
+      |                             %ld
+../Core/Src/utils.c:27:13: warning: unused variable 'Ignored' [-Wunused-variable]
+   27 |         int Ignored[ARRAY_SIZE]={0};
+      |             ^~~~~~~
+../Core/Src/utils.c: In function 'sortArray':
+../Core/Src/utils.c:57:16: warning: returning 'int *' from a function with return type 'int' makes integer from pointer without a cast [-Wint-conversion]
+   57 |         return sorted;
+      |                ^~~~~~
+../Core/Src/utils.c: In function 'Bubble':
+../Core/Src/utils.c:67:1: warning: control reaches end of non-void function [-Wreturn-type]
+   67 | }
+      | ^
+arm-none-eabi-gcc -o "TD3-TRI.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/y360/STM32CubeIDE/workspace_1.19.0/TD3-TRI/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TD3-TRI.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TD3-TRI.elf
+ 
+arm-none-eabi-size  TD3-TRI.elf 
+arm-none-eabi-objdump -h -S TD3-TRI.elf  > "TD3-TRI.list"
+   text	   data	    bss	    dec	    hex	filename
+  17768	    584	   2040	  20392	   4fa8	TD3-TRI.elf
+Finished building: default.size.stdout
+ 
+Finished building: TD3-TRI.list
+ 
+10:10:12 **** Incremental Build of configuration Debug for project TD3-TRI ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/utils.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/utils.d" -MT"Core/Src/utils.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/utils.o"
+../Core/Src/utils.c: In function 'setup':
+../Core/Src/utils.c:21:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   21 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:9:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    8 | #include "utils.h"
+  +++ |+#include <stdio.h>
+    9 | 
+../Core/Src/utils.c:21:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   21 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:21:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: In function 'loop':
+../Core/Src/utils.c:28:20: warning: implicit declaration of function 'HAL_GetTick' [-Wimplicit-function-declaration]
+   28 |         long start=HAL_GetTick();
+      |                    ^~~~~~~~~~~
+../Core/Src/utils.c:31:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   31 |         printf("Solved in : %d milliseconds \n\r", stop-start);
+      |         ^~~~~~
+../Core/Src/utils.c:31:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c:31:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long int' [-Wformat=]
+   31 |         printf("Solved in : %d milliseconds \n\r", stop-start);
+      |                             ~^                     ~~~~~~~~~~
+      |                              |                         |
+      |                              int                       long int
+      |                             %ld
+../Core/Src/utils.c:27:13: warning: unused variable 'Ignored' [-Wunused-variable]
+   27 |         int Ignored[ARRAY_SIZE]={0};
+      |             ^~~~~~~
+../Core/Src/utils.c: In function 'sortArray':
+../Core/Src/utils.c:57:16: warning: returning 'int *' from a function with return type 'int' makes integer from pointer without a cast [-Wint-conversion]
+   57 |         return sorted;
+      |                ^~~~~~
+../Core/Src/utils.c: In function 'Bubble':
+../Core/Src/utils.c:65:44: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   65 |                                 (array[j+1],array[j])=(array[j],array[j+1]);
+      |                                            ^
+../Core/Src/utils.c:65:64: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   65 |                                 (array[j+1],array[j])=(array[j],array[j+1]);
+      |                                                                ^
+../Core/Src/utils.c:65:54: error: lvalue required as left operand of assignment
+   65 |                                 (array[j+1],array[j])=(array[j],array[j+1]);
+      |                                                      ^
+../Core/Src/utils.c:70:1: warning: control reaches end of non-void function [-Wreturn-type]
+   70 | }
+      | ^
+make: *** [Core/Src/subdir.mk:37: Core/Src/utils.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+10:10:49 **** Incremental Build of configuration Debug for project TD3-TRI ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/utils.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/utils.d" -MT"Core/Src/utils.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/utils.o"
+../Core/Src/utils.c: In function 'setup':
+../Core/Src/utils.c:21:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   21 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:9:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    8 | #include "utils.h"
+  +++ |+#include <stdio.h>
+    9 | 
+../Core/Src/utils.c:21:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   21 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:21:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: In function 'loop':
+../Core/Src/utils.c:28:20: warning: implicit declaration of function 'HAL_GetTick' [-Wimplicit-function-declaration]
+   28 |         long start=HAL_GetTick();
+      |                    ^~~~~~~~~~~
+../Core/Src/utils.c:31:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   31 |         printf("Solved in : %d milliseconds \n\r", stop-start);
+      |         ^~~~~~
+../Core/Src/utils.c:31:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c:31:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long int' [-Wformat=]
+   31 |         printf("Solved in : %d milliseconds \n\r", stop-start);
+      |                             ~^                     ~~~~~~~~~~
+      |                              |                         |
+      |                              int                       long int
+      |                             %ld
+../Core/Src/utils.c:27:13: warning: unused variable 'Ignored' [-Wunused-variable]
+   27 |         int Ignored[ARRAY_SIZE]={0};
+      |             ^~~~~~~
+../Core/Src/utils.c: In function 'sortArray':
+../Core/Src/utils.c:57:16: warning: returning 'int *' from a function with return type 'int' makes integer from pointer without a cast [-Wint-conversion]
+   57 |         return sorted;
+      |                ^~~~~~
+../Core/Src/utils.c: In function 'Bubble':
+../Core/Src/utils.c:65:43: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   65 |                                 array[j+1],array[j]=array[j],array[j+1];
+      |                                           ^
+../Core/Src/utils.c:65:61: warning: right-hand operand of comma expression has no effect [-Wunused-value]
+   65 |                                 array[j+1],array[j]=array[j],array[j+1];
+      |                                                             ^
+../Core/Src/utils.c:70:1: warning: control reaches end of non-void function [-Wreturn-type]
+   70 | }
+      | ^
+arm-none-eabi-gcc -o "TD3-TRI.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/y360/STM32CubeIDE/workspace_1.19.0/TD3-TRI/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TD3-TRI.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TD3-TRI.elf
+ 
+arm-none-eabi-size  TD3-TRI.elf 
+arm-none-eabi-objdump -h -S TD3-TRI.elf  > "TD3-TRI.list"
+   text	   data	    bss	    dec	    hex	filename
+  17768	    584	   2040	  20392	   4fa8	TD3-TRI.elf
+Finished building: default.size.stdout
+ 
+Finished building: TD3-TRI.list
+ 
+10:14:20 **** Incremental Build of configuration Debug for project TD3-TRI ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/utils.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/utils.d" -MT"Core/Src/utils.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/utils.o"
+../Core/Src/utils.c: In function 'setup':
+../Core/Src/utils.c:21:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   21 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:9:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    8 | #include "utils.h"
+  +++ |+#include <stdio.h>
+    9 | 
+../Core/Src/utils.c:21:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   21 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:21:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: In function 'loop':
+../Core/Src/utils.c:28:20: warning: implicit declaration of function 'HAL_GetTick' [-Wimplicit-function-declaration]
+   28 |         long start=HAL_GetTick();
+      |                    ^~~~~~~~~~~
+../Core/Src/utils.c:31:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   31 |         printf("Solved in : %d milliseconds \n\r", stop-start);
+      |         ^~~~~~
+../Core/Src/utils.c:31:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c:31:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long int' [-Wformat=]
+   31 |         printf("Solved in : %d milliseconds \n\r", stop-start);
+      |                             ~^                     ~~~~~~~~~~
+      |                              |                         |
+      |                              int                       long int
+      |                             %ld
+../Core/Src/utils.c:27:13: warning: unused variable 'Ignored' [-Wunused-variable]
+   27 |         int Ignored[ARRAY_SIZE]={0};
+      |             ^~~~~~~
+../Core/Src/utils.c: In function 'sortArray':
+../Core/Src/utils.c:57:16: warning: returning 'int *' from a function with return type 'int' makes integer from pointer without a cast [-Wint-conversion]
+   57 |         return sorted;
+      |                ^~~~~~
+../Core/Src/utils.c: In function 'Bubble':
+../Core/Src/utils.c:65:33: error: 'b' undeclared (first use in this function)
+   65 |                                 b=array[j+1];
+      |                                 ^
+../Core/Src/utils.c:65:33: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/utils.c:66:33: error: 'a' undeclared (first use in this function)
+   66 |                                 a= array[j];
+      |                                 ^
+../Core/Src/utils.c:73:1: warning: control reaches end of non-void function [-Wreturn-type]
+   73 | }
+      | ^
+make: *** [Core/Src/subdir.mk:37: Core/Src/utils.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+10:14:39 **** Incremental Build of configuration Debug for project TD3-TRI ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/utils.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/utils.d" -MT"Core/Src/utils.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/utils.o"
+../Core/Src/utils.c: In function 'setup':
+../Core/Src/utils.c:21:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   21 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:9:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    8 | #include "utils.h"
+  +++ |+#include <stdio.h>
+    9 | 
+../Core/Src/utils.c:21:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   21 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:21:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: In function 'loop':
+../Core/Src/utils.c:28:20: warning: implicit declaration of function 'HAL_GetTick' [-Wimplicit-function-declaration]
+   28 |         long start=HAL_GetTick();
+      |                    ^~~~~~~~~~~
+../Core/Src/utils.c:31:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   31 |         printf("Solved in : %d milliseconds \n\r", stop-start);
+      |         ^~~~~~
+../Core/Src/utils.c:31:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c:31:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long int' [-Wformat=]
+   31 |         printf("Solved in : %d milliseconds \n\r", stop-start);
+      |                             ~^                     ~~~~~~~~~~
+      |                              |                         |
+      |                              int                       long int
+      |                             %ld
+../Core/Src/utils.c:27:13: warning: unused variable 'Ignored' [-Wunused-variable]
+   27 |         int Ignored[ARRAY_SIZE]={0};
+      |             ^~~~~~~
+../Core/Src/utils.c: In function 'sortArray':
+../Core/Src/utils.c:57:16: warning: returning 'int *' from a function with return type 'int' makes integer from pointer without a cast [-Wint-conversion]
+   57 |         return sorted;
+      |                ^~~~~~
+../Core/Src/utils.c: In function 'Bubble':
+../Core/Src/utils.c:73:1: warning: control reaches end of non-void function [-Wreturn-type]
+   73 | }
+      | ^
+arm-none-eabi-gcc -o "TD3-TRI.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/y360/STM32CubeIDE/workspace_1.19.0/TD3-TRI/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TD3-TRI.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TD3-TRI.elf
+ 
+arm-none-eabi-size  TD3-TRI.elf 
+arm-none-eabi-objdump -h -S TD3-TRI.elf  > "TD3-TRI.list"
+   text	   data	    bss	    dec	    hex	filename
+  17768	    584	   2040	  20392	   4fa8	TD3-TRI.elf
+Finished building: default.size.stdout
+ 
+Finished building: TD3-TRI.list
+ 
+10:16:46 **** Incremental Build of configuration Debug for project TD3-TRI ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/utils.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/utils.d" -MT"Core/Src/utils.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/utils.o"
+../Core/Src/utils.c: In function 'setup':
+../Core/Src/utils.c:21:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   21 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:9:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    8 | #include "utils.h"
+  +++ |+#include <stdio.h>
+    9 | 
+../Core/Src/utils.c:21:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   21 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:21:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: In function 'loop':
+../Core/Src/utils.c:26:20: warning: implicit declaration of function 'HAL_GetTick' [-Wimplicit-function-declaration]
+   26 |         long start=HAL_GetTick();
+      |                    ^~~~~~~~~~~
+../Core/Src/utils.c:29:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   29 |         printf("Solved in : %d milliseconds \n\r", stop-start);
+      |         ^~~~~~
+../Core/Src/utils.c:29:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c:29:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long int' [-Wformat=]
+   29 |         printf("Solved in : %d milliseconds \n\r", stop-start);
+      |                             ~^                     ~~~~~~~~~~
+      |                              |                         |
+      |                              int                       long int
+      |                             %ld
+../Core/Src/utils.c: In function 'sortArray':
+../Core/Src/utils.c:55:16: warning: returning 'int *' from a function with return type 'int' makes integer from pointer without a cast [-Wint-conversion]
+   55 |         return sorted;
+      |                ^~~~~~
+../Core/Src/utils.c: In function 'Bubble':
+../Core/Src/utils.c:71:16: warning: returning 'int *' from a function with return type 'int' makes integer from pointer without a cast [-Wint-conversion]
+   71 |         return array;
+      |                ^~~~~
+arm-none-eabi-gcc -o "TD3-TRI.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/y360/STM32CubeIDE/workspace_1.19.0/TD3-TRI/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TD3-TRI.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TD3-TRI.elf
+ 
+arm-none-eabi-size  TD3-TRI.elf 
+arm-none-eabi-objdump -h -S TD3-TRI.elf  > "TD3-TRI.list"
+   text	   data	    bss	    dec	    hex	filename
+  17548	    584	   2040	  20172	   4ecc	TD3-TRI.elf
+Finished building: default.size.stdout
+ 
+Finished building: TD3-TRI.list
+ 

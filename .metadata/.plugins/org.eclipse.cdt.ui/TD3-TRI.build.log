@@ -1,0 +1,51 @@
+10:16:46 **** Incremental Build of configuration Debug for project TD3-TRI ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/utils.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/utils.d" -MT"Core/Src/utils.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/utils.o"
+../Core/Src/utils.c: In function 'setup':
+../Core/Src/utils.c:21:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   21 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:9:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    8 | #include "utils.h"
+  +++ |+#include <stdio.h>
+    9 | 
+../Core/Src/utils.c:21:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   21 |         printf("le système a démarré");
+      |         ^~~~~~
+../Core/Src/utils.c:21:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c: In function 'loop':
+../Core/Src/utils.c:26:20: warning: implicit declaration of function 'HAL_GetTick' [-Wimplicit-function-declaration]
+   26 |         long start=HAL_GetTick();
+      |                    ^~~~~~~~~~~
+../Core/Src/utils.c:29:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   29 |         printf("Solved in : %d milliseconds \n\r", stop-start);
+      |         ^~~~~~
+../Core/Src/utils.c:29:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/utils.c:29:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long int' [-Wformat=]
+   29 |         printf("Solved in : %d milliseconds \n\r", stop-start);
+      |                             ~^                     ~~~~~~~~~~
+      |                              |                         |
+      |                              int                       long int
+      |                             %ld
+../Core/Src/utils.c: In function 'sortArray':
+../Core/Src/utils.c:55:16: warning: returning 'int *' from a function with return type 'int' makes integer from pointer without a cast [-Wint-conversion]
+   55 |         return sorted;
+      |                ^~~~~~
+../Core/Src/utils.c: In function 'Bubble':
+../Core/Src/utils.c:71:16: warning: returning 'int *' from a function with return type 'int' makes integer from pointer without a cast [-Wint-conversion]
+   71 |         return array;
+      |                ^~~~~
+arm-none-eabi-gcc -o "TD3-TRI.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/y360/STM32CubeIDE/workspace_1.19.0/TD3-TRI/STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TD3-TRI.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: TD3-TRI.elf
+ 
+arm-none-eabi-size  TD3-TRI.elf 
+arm-none-eabi-objdump -h -S TD3-TRI.elf  > "TD3-TRI.list"
+   text	   data	    bss	    dec	    hex	filename
+  17548	    584	   2040	  20172	   4ecc	TD3-TRI.elf
+Finished building: default.size.stdout
+ 
+Finished building: TD3-TRI.list
+ 
+
+10:16:46 Build Finished. 0 errors, 7 warnings. (took 170ms)
+

@@ -1,0 +1,23 @@
+/*
+ * utils.h
+ *
+ *  Created on: Oct 29, 2025
+ *      Author: y360
+ */
+
+#ifndef INC_UTILS_H_
+#define INC_UTILS_H_
+
+
+
+#endif /* INC_UTILS_H_ */
+
+void loop(void);
+
+void setup(void);
+
+int getMinPosition(int * array, int * toBeIgnored, int size);
+
+int sortArray(int * toSort, int * sorted, int size);
+
+int Bubble(int * array, int size);

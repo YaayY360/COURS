@@ -1,0 +1,5 @@
+../Core/Src/utils.c:20:6:setup	1
+../Core/Src/utils.c:25:6:loop	1
+../Core/Src/utils.c:33:5:getMinPosition	4
+../Core/Src/utils.c:48:5:sortArray	2
+../Core/Src/utils.c:59:5:Bubble	4
