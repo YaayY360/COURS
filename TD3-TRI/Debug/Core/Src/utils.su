@@ -1,5 +1,0 @@
-../Core/Src/utils.c:20:6:setup	8	static
-../Core/Src/utils.c:25:6:loop	16	static
-../Core/Src/utils.c:33:5:getMinPosition	40	static
-../Core/Src/utils.c:48:5:sortArray	512	static
-../Core/Src/utils.c:59:5:Bubble	32	static
