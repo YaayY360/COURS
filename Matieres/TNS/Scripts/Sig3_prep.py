@@ -309,4 +309,29 @@ plt.tight_layout()
 plt.savefig('/home/fifty/PyCharmMiscProject/TNS_s6/COURS/Matieres/TNS/Resultats/fig7.png')
 
 
+# ==========================================
+# Tracé pour IMAGER l'effet du filtre he2
+# ==========================================
+# On recrée he2 complet (son direct + écho) pour le tracé
+he2_complet = np.zeros(N_retard + 1)
+he2_complet[0] = 1          # Son direct (amplitude 1)
+he2_complet[N_retard] = 0.5 # Écho 1 seconde plus tard (amplitude 0.5)
+
+# On crée l'axe des temps en secondes pour ce filtre
+temps_he2 = np.arange(len(he2_complet)) / fe
+
+plt.figure(figsize=(10, 4))
+# On utilise plot au lieu de stem car il y a 44100 points, stem serait trop lourd
+plt.plot(temps_he2, he2_complet, color='purple')
+plt.title("reponse impulsionnelle du filtre d'echo he2")
+plt.xlabel("temps (secondes)")
+plt.ylabel("amplitude")
+plt.grid(True)
+
+# On ajoute des annotations pour que le prof voie que tu as compris
+plt.annotate('Son direct', xy=(0, 1), xytext=(0.1, 0.9),
+             arrowprops=dict(facecolor='black', shrink=0.05))
+plt.annotate('Écho (1 sec plus tard)', xy=(1.0, 0.5), xytext=(0.6, 0.6),
+             arrowprops=dict(facecolor='black', shrink=0.05))
+plt.savefig('/home/fifty/PyCharmMiscProject/TNS_s6/COURS/Matieres/TNS/Resultats/fig8.png')
 
